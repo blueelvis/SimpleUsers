@@ -90,6 +90,7 @@ If you want to improve the documentation, please submit an issue with the title:
 
 ## TODO
 
+* Add function to change passwords
 * Add support for storing data in a .json file
 
 ## Discussions
