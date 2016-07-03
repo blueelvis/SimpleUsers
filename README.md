@@ -67,7 +67,7 @@ if($simpleusers->userExists("user")){                           //Test if a user
 }
 ~~~
 ~~~php
-$simpleusers->setupMySQLTable();				                //Setsup the table for storing data, returns true if the operation succeeded or false if the operation failed. MAKE SHURE THE TABLE DOESN'T EXISTS BEFORE CREATING ONE WITH THIS FUNCTION
+$simpleusers->setupMySQLTable();				                //Set up the table for storing data, returns true if the operation succeeded or false if the operation failed. MAKE SHURE THE TABLE DOESN'T EXISTS BEFORE CREATING ONE WITH THIS FUNCTION
 
 ?>
 ~~~
