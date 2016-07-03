@@ -11,7 +11,7 @@ $simpleusers = new SimpleUsers("MySQL", array(
     "table" => "userTable"
 ));
 
-if($simpleusers->userExists("user")){
+if(!$simpleusers->userExists("user")){
   $newUserId = $simpleusers->addUser("user", "pass", []);
   echo "User created with id: " . $newUserId;
 }else{
