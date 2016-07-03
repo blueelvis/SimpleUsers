@@ -1,5 +1,7 @@
 <?php
 
+//Made by Marnix Bouhuis ( please don't remove :D )
+
 class SimpleUsers {
 	
 	private $_storageType = "";
